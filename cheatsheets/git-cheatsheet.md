@@ -76,7 +76,7 @@ git checkout main
 git merge examplebranch
 ```
 
-#### Add remote repote and push it
+#### Add remote repo and push it
 ```bash
 git remote add origin https://github.com/dom-44/learning.git
 git branch -M main
