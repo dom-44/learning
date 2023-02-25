@@ -16,7 +16,7 @@ git push        # push to remote repository
 git pull        # Pull lates from remote repo
 git clone       # clone repo into a new directory
 ```
-### Initalize a Git Repo
+## Initalize a Git Repo
 ```bash
 #Go to the directory
 cd development
@@ -39,4 +39,12 @@ git rm --cached cheatsheets/git-cheatsheet.md
 
 #add all markdown file to index
 git add cheatsheets/*.md
+
+#commit the changes added to index
+git commit -m 'inital commit'
+
 ```
+### Git ignore
+To ignore file you can create a .gitignore file and specify the filename in it.
+
+## Branches
