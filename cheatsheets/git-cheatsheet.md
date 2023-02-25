@@ -26,7 +26,7 @@ git init
 
 #set your git config
 git config --global user.name 'Dominik'
-git config --global user.mail 'dbitterli@gmail.com'
+git config --global user.mail 'random@mail.com'
 
 #add all files to the index
 git add .
