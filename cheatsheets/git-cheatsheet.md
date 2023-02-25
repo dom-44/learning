@@ -52,7 +52,9 @@ you can add for example *.txt to the text file to exclude all text files or /dir
 ## Branches
 You can create a branch if you want to develop a functionality and don't commit it to the main branche till the code is finished.
 
-### Code example "Create branch"
+### Code example
+#### Create and and change branche
+
 ```bash
 #create a branch
 git branch examplebranch
@@ -62,7 +64,21 @@ git status
 
 #to switch to the new branch you need to checkout
 git checkout examplebranch
+```
+If you change the branch and create or modify file and commit them, then this is just done in this branch. If you change back to the other branch "git checkout main" then the newly created files and modifications are not visible anymore.
 
+#### Merge branch
+```bash
+#change to main branch
+git checkout main
 
+#Merge examplebranch with main branch
+git merge examplebranch
+```
 
+#### Add remote repote and push it
+```bash
+git remote add origin https://github.com/dom-44/learning.git
+git branch -M main
+git push -u origin main
 ```
