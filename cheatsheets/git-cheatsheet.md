@@ -47,4 +47,22 @@ git commit -m 'inital commit'
 ### Git ignore
 To ignore file you can create a .gitignore file and specify the filename in it.
 
+you can add for example *.txt to the text file to exclude all text files or /dir to exclude a specific folder
+
 ## Branches
+You can create a branch if you want to develop a functionality and don't commit it to the main branche till the code is finished.
+
+### Code example
+```bash
+#create a branch
+git branch examplebranch
+
+#to check on which branch you are
+git status
+
+#to switch to the new branch you need to checkout
+git checkout examplebranch
+
+
+
+```
