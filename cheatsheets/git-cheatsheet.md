@@ -52,7 +52,7 @@ you can add for example *.txt to the text file to exclude all text files or /dir
 ## Branches
 You can create a branch if you want to develop a functionality and don't commit it to the main branche till the code is finished.
 
-### Code example
+### Code example "Create branch"
 ```bash
 #create a branch
 git branch examplebranch
