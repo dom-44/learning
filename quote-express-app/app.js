@@ -15,8 +15,7 @@ app.get('/', (req, res) => {
         <head>
           <title>Berühmte Zitate</title>
           <style>
-            body {
-              font-family: Arial, sans-serif;
+            body {.ans-serif;
               background-color: #f7f7f7;
               text-align: center;
             }
